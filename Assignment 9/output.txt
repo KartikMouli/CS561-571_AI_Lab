@@ -1,0 +1,325 @@
+Output 1:
+
+1 ?- consult("1.pl").
+true.
+
+2 ?- solve()
+.
+Parents = [carpenter,smith,baker,smith]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [carpenter,smith,baker,smith]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [carpenter,smith,baker,smith]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [carpenter,smith,baker,smith]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [carpenter,smith,baker,baker]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [carpenter,smith,baker,baker]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [carpenter,smith,baker,baker]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [carpenter,smith,baker,baker]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [carpenter,smith,baker,carpenter]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [carpenter,smith,baker,carpenter]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [carpenter,smith,baker,carpenter]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [carpenter,smith,baker,carpenter]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [carpenter,smith,tailor,smith]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [carpenter,smith,tailor,smith]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [carpenter,smith,tailor,smith]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [carpenter,smith,tailor,smith]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [carpenter,smith,tailor,baker]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [carpenter,smith,tailor,baker]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [carpenter,smith,tailor,baker]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [carpenter,smith,tailor,baker]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [carpenter,smith,tailor,carpenter]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [carpenter,smith,tailor,carpenter]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [carpenter,smith,tailor,carpenter]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [carpenter,smith,tailor,carpenter]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [carpenter,tailor,smith,smith]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [carpenter,tailor,smith,smith]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,smith,smith]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [carpenter,tailor,smith,smith]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,smith,baker]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [carpenter,tailor,smith,baker]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,smith,baker]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [carpenter,tailor,smith,baker]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,smith,carpenter]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [carpenter,tailor,smith,carpenter]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [carpenter,tailor,smith,carpenter]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [carpenter,tailor,smith,carpenter]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [carpenter,tailor,baker,smith]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [carpenter,tailor,baker,smith]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,baker,smith]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [carpenter,tailor,baker,smith]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,baker,baker]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [carpenter,tailor,baker,baker]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,baker,baker]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [carpenter,tailor,baker,baker]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [carpenter,tailor,baker,carpenter]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [carpenter,tailor,baker,carpenter]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [carpenter,tailor,baker,carpenter]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [carpenter,tailor,baker,carpenter]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [tailor,smith,baker,smith]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [tailor,smith,baker,smith]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [tailor,smith,baker,smith]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [tailor,smith,baker,smith]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [tailor,smith,baker,baker]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [tailor,smith,baker,baker]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [tailor,smith,baker,baker]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [tailor,smith,baker,baker]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [tailor,smith,baker,carpenter]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [tailor,smith,baker,carpenter]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [tailor,smith,baker,carpenter]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [tailor,smith,baker,carpenter]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [tailor,smith,tailor,smith]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [tailor,smith,tailor,smith]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [tailor,smith,tailor,smith]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [tailor,smith,tailor,smith]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [tailor,smith,tailor,baker]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [tailor,smith,tailor,baker]
+Sons = [baker,carpenter,smith,carpenter]
+true ;
+Parents = [tailor,smith,tailor,baker]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [tailor,smith,tailor,baker]
+Sons = [baker,tailor,smith,carpenter]
+true ;
+Parents = [tailor,smith,tailor,carpenter]
+Sons = [baker,carpenter,smith,smith]
+true ;
+Parents = [tailor,smith,tailor,carpenter]
+Sons = [baker,carpenter,smith,baker]
+true ;
+Parents = [tailor,smith,tailor,carpenter]
+Sons = [baker,tailor,smith,smith]
+true ;
+Parents = [tailor,smith,tailor,carpenter]
+Sons = [baker,tailor,smith,baker]
+true ;
+Parents = [tailor,tailor,smith,smith]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [tailor,tailor,smith,smith]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,smith,smith]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [tailor,tailor,smith,smith]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,smith,baker]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [tailor,tailor,smith,baker]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,smith,baker]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [tailor,tailor,smith,baker]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,smith,carpenter]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [tailor,tailor,smith,carpenter]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [tailor,tailor,smith,carpenter]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [tailor,tailor,smith,carpenter]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [tailor,tailor,baker,smith]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [tailor,tailor,baker,smith]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,baker,smith]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+Parents = [tailor,tailor,baker,smith]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,baker,baker]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [tailor,tailor,baker,baker]
+Sons = [baker,smith,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,baker,baker]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [tailor,tailor,baker,baker]
+Sons = [baker,carpenter,tailor,carpenter]
+true ;
+Parents = [tailor,tailor,baker,carpenter]
+Sons = [baker,smith,tailor,smith]
+true ;
+Parents = [tailor,tailor,baker,carpenter]
+Sons = [baker,smith,tailor,baker]
+true ;
+Parents = [tailor,tailor,baker,carpenter]
+Sons = [baker,carpenter,tailor,smith]
+true ;
+Parents = [tailor,tailor,baker,carpenter]
+Sons = [baker,carpenter,tailor,baker]
+true ;
+false.
+
+
+Output 2:
+
+1 ?- consult("2.pl").
+
+true.
+
+2 ?- solve().
+One m1 and one c1 crosses the river
+One c1 is left and m1 go back
+
+One c2 and one c3 crosses the river
+One c2 is left and c3 go back
+
+One m1 and one m2 crosses the river
+One m2 is going back with one c2
+
+One m2 and one m3 crosses the river
+One c1 is going back
+
+
+One c1 and one c2 crosses the river
+One c1 is left and c2 go back
+
+One c2 and one c3 crosses the river
+ The end
+
+true
